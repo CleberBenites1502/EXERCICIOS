@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Mídias</h1>
+    <p>
+        Mídia consiste no conjunto dos diversos meios de comunicação, com a finalidade de transmitir informações e conteúdos variados. O universo midiático abrange uma série de diferentes plataformas que agem como meios para disseminar as informações, como os jornais, revistas, a televisão, o rádio e a internet, por exemplo.
+    </p>
+<h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width:700px )" srcset="foto_p.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="foto_m.png" type="image/png">
+        <img src="foto_g.png" alt="FotoGrande">
+    </picture>        
+<h1>Audios</h1>
+            <!-- tags audio controls e autoplay, no material em pdf tem mais detalhes, tem formas diferentes que podem ser configuradas, outras tag que podem complementar 'audio' são preload controls loop
+            existe a possibilidade de fazer uma especie de colocar opções para todos os navegadores interpretarem, mas para os dias de hoje não tem tanta relevância-->
+            <p>Tag audio, controls para inserir o controle e AUTOPLAY para começar a tocar ou reproduzir sozinho</p>
+    <audio src="GetOutsideJasonFarnhaml.mp3" controls --autoplay></audio>
+    <h2>ou</h2>
+            <audio controls>
+                <source src="GetOutsideJasonFarnhaml.mp3" type="audio/mp3">
+            </audio>
+<h1>Vídeos</h1>
+    <p>Tags video, poster, controls</p>
+        <video src="production.mp4" poster="../image/paisagem600.jpg" width="500" controls></video>
+    <h2>Ou</h2>
+            <video width="300" poster="../image/lendo.jpg" controls>
+                <source src="production.mp4" type="video/mp4">
+            </video>
+ 
+    
+
+</body>
+</html>
